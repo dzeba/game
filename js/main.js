@@ -99,7 +99,7 @@ function ballHitBrick(ball, brick) {
     score += 10;
     scoreText.setText('Points: '+score);
     if(score === brickInfo.count.row*brickInfo.count.col*10) {
-        alert('You won the game, congratulations!');
+        alert('Молодець Наталочко, ти побідила)');
         location.reload();
     }
 }
